@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <div class="col-md-12 justify-content-center">
+
+      <h2 class="h2">Add New Contact</h2>
+        <!-- adding form to view from createAction function in Contact Controller-->
+        {{form_start(form)}}
+        {{form_widget(form)}}
+        {{form_end(form)}}
+    </div>
+{% endblock %}
